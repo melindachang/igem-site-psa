@@ -36,6 +36,7 @@ button
 
 a
     color: #123386
+    word-wrap: break-word
 
 .wrapper
     width: 100%
@@ -108,3 +109,27 @@ h2
 
     h2
         font-size: 2rem
+
+@media (max-width: 768px)
+    .container
+        &-text
+            width: 85%
+
+        &-img
+            width: 90%
+
+@media (min-width: 769px) and (max-width: 992px)
+    .container
+        &-text
+            width: 75%
+
+        &-img
+            width: 80%
+
+@media (min-width: 993px) and (max-width: 1200px)
+    .container
+        &-text
+            width: 60%
+
+        &-img
+            width: 75%
