@@ -22,8 +22,18 @@ body
 
 .container
     &-img
-        width: 75%
-        margin: 0 auto
+        width: 55%
+        margin: 0 auto 7rem auto
+        img
+            width: 100%
+            filter: saturate(0)
+        span
+            display: block
+            text-align: right
+            font-size: 1.4rem
+            padding-top: .8rem
+            font-family: $font-family-sans
+
     &-text
         width: 40%
         margin: 0 auto
@@ -33,5 +43,22 @@ p
     font-size: 1.8rem
 
 h1
+    font-family: $font-family-headline
+    font-weight: 500
+    margin-top: 5rem
+
+h2
+    font-family: $font-family-headline
+    font-weight: 400
     font-style: italic
-    font-weight: 800
+
+.title
+    text-align: center
+    margin: 3rem 0
+
+    *
+        margin: 0
+        padding: 0
+
+    h2
+        font-size: 2rem
