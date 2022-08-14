@@ -11,9 +11,6 @@ body
     padding: 0
     background: #f3eee9
 
-.wow
-    visibility: hidden
-
 ::selection
     background: rgba(0,0,0,0.1)
 
@@ -37,10 +34,16 @@ button
     right: .5rem
     opacity: 0
 
+a
+    color: #123386
+
 .wrapper
     width: 100%
     height: auto
-    padding: 10rem 0
+    padding: 10rem 0 15rem 0
+
+    &.biblio
+        background: white
 
 #bar-progress
     position: fixed
@@ -77,6 +80,13 @@ button
 p
     line-height: 2
     font-size: 1.8rem
+
+    &.subtext
+        font-size: 1.6rem
+        font-style: italic
+
+hr
+    margin: 8rem 0
 
 h1
     font-family: $font-family-headline
