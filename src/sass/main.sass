@@ -1,0 +1,37 @@
+@import './_variables'
+
+html
+    font-size: 62.5%
+
+body
+    font-size: 1.6rem
+    font-family: $font-family
+    margin: 0
+    padding: 0
+
+::selection
+    background: rgba(0,0,0,0.1)
+
+*, *::before, *::after
+    box-sizing: border-box
+
+.wrapper
+    width: 100%
+    height: auto
+    padding: 10rem 0
+
+.container
+    &-img
+        width: 75%
+        margin: 0 auto
+    &-text
+        width: 40%
+        margin: 0 auto
+
+p
+    line-height: 2
+    font-size: 1.8rem
+
+h1
+    font-style: italic
+    font-weight: 800
